@@ -1,0 +1,29 @@
+Mi a program célja?
+
+A program a Fake Store webáruház termékeit listázza. Ebből a listából a felhasználó kiválaszthatja az(oka)t a termék(ek)et amely(ek)et meg szeretne figyelni. A megfigyelt termékeknél beállíthat egy célárat és megjegyzéseket is írhat melléjük. A program a megfigyelt termék(ek) aktuális árát összeveti a webáruház aktuális áraival és jelzi, ha van(nak) olyan termék(ek) amelyek ára a megadott ár alá csökkent.
+
+A főmenü (Összes termék) funkciói:
+A kategóriaválasztó legördülő menüben a felhasználó egy adott kategória összes termékére rászűkíthet.
+A keresés mezővel a felhasználó a termék neve alapján kereshet.
+A Visszaállítás gombbal a teljes termékpaletta újra látható lesz.
+A táblázatban a termékre kattintva megtekinthető a termék leírása.
+A termékre duplán kattintva megjelenik egy párbeszédablak, ahol a kívánt célárat és a megjegyzést lehet megadni. (A már megfigyelt termék(ek)nél ez a funkció már nem elérhető!)
+
+Termék megfigyelése párbeszédablak:
+A párbeszédablakban a termék célárát (kötelező adat) és a megjegyzést(opcionális) lehet megadni. Ezután az Árfigyelés négyzetet ki kell pipálni, így kerül a termék megfigyelt státuszba!
+Ha a termék megfigyelt státuszba került, a főmenüben lévő táblázat utolsó oszlopában egy pipa jelzi.
+
+A Megfigyelt termékek menü funkciói:
+Az Mindent töröl gombbal a táblázatban lévő összes termék törlésre kerül, és megszűnik a megfigyelésük.
+A Minden ár ellenőrzése gombbal a táblázatban szereplő összes termék aktuális árát lekérdezi a program és jelzi, ha van(nak) olyan termék(ek) amelyek ára a célárat elérte vagy az alá csökkent. Az aktuális árat az aktuális időbélyeggel egy külön táblázatban menti a program amit a felhasználó külön fájlban exportálhat.
+Egy vagy több termékre kattintva és a Törlés gombra kattintva a kiválasztott termék(ek)et törli a program a megfigyelt státuszból.
+Egy vagy több termékre kattintva és az Ár ellenőrzés gombra kattintva a kiválasztott termék(ek) aktuális árát lekérdezi a program és jelzi, ha van(nak) olyan termék(ek) amelyek ára a célárat elérte vagy az alá csökkent. Az aktuális árat az aktuális időbélyeggel egy külön táblázatban menti a program amit a felhasználó külön fájlban exportálhat.
+Egy termékre duplán kattintva megjelenik a Módosítás párbeszédablak. Itt a felhasználó megváltoztathatja a célárat illetve hozzáadhat/törölhet megjegyzést. A Frissítés gombra kattintva menthetőek az új adatok.
+
+Az Export menü funkciói:
+Az Összes termék gombbal a felhasználó egy külön CSV fájlba exportálhatja az összes megfigyelt termékeknél lekérdezett összes árat, időbélyegekkel együtt. A CSV fájlt a program az Asztalon helyezi el. A fájl tartalmazza a termékek azonosítóját, az ár lekérdezések pontos idejét és az akkori aktuális árat.
+A Kiválasztott termék gombbal megnyílik egy párbeszédablak. A felhasználó itt kiválaszthat egyet a megfigyelt teremék(ek) közül és egy külön CSV fájlba exportálhatja a kiválasztott terméknél lekérdezett összes árat, időbélyegekkel együtt. A CSV fájlt a program az Asztalon helyezi el. A fájl tartalmazza a termékek azonosítóját, az ár lekérdezések pontos idejét és az akkori aktuális árat.
+
+A program képes automatikusan elvégezni az ár lekérést. Ehhez a programot hozzá kell adni a rendszer feladatütemezőjéhez. Ha ezzel problémája akad keresse rendszergazdáját!
+
+Észrevétel, probléma esetén írjon a support@example.com email címre!
